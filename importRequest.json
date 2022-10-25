@@ -1,33 +1,33 @@
 {
-    "name": "New AV Rentals",
-    "files": [
-        {
-            "fileName": "sample-rentals.csv",
-            "fileFormat": "CSV",
-            "dateFormat": "YEAR_MONTH_DAY",
-            "fileImportPage": {
-                "hasHeader": true,
-                "columnMappings": [
-                    {
-                        "columnObjectTypeId": "YOUR_CUSTOM_OBJECT_ID",
-                        "columnName": "Name",
-                        "propertyName": "name",
-                        "idColumnType": null
-                    },
-                    {
-                        "columnObjectTypeId": "YOUR_CUSTOM_OBJECT_ID",
-                        "columnName": "Start date",
-                        "propertyName": "start_date",
-                        "idColumnType": null
-                    },
-                    {
-                        "columnObjectTypeId": "YOUR_CUSTOM_OBJECT_ID",
-                        "columnName": "End date",
-                        "propertyName": "end_date",
-                        "idColumnType": null
-                    }
-                ]
-            }
-        }
-    ]
+  "name": "New AV Rentals",
+  "files": [
+    {
+      "fileName": "sample-rentals.csv",
+      "fileFormat": "CSV",
+      "dateFormat": "YEAR_MONTH_DAY",
+      "fileImportPage": {
+        "hasHeader": true,
+        "columnMappings": [
+          {
+            "columnObjectTypeId": "YOUR_CUSTOM_OBJECT_ID",
+            "columnName": "Name",
+            "propertyName": "name",
+            "idColumnType": null
+          },
+          {
+            "columnObjectTypeId": "YOUR_CUSTOM_OBJECT_ID",
+            "columnName": "Start date",
+            "propertyName": "start_date",
+            "idColumnType": null
+          },
+          {
+            "columnObjectTypeId": "YOUR_CUSTOM_OBJECT_ID",
+            "columnName": "End date",
+            "propertyName": "end_date",
+            "idColumnType": null
+          }
+        ]
+      }
+    }
+  ]
 }
